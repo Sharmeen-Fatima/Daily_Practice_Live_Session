@@ -1,57 +1,24 @@
-UV: A Fast Python Package Installer
-UV is an ultra-fast Python package installer designed to manage Python environments and dependencies with high speed, efficiency, and modern tooling.
+# UV: A Fast Python Package Installer
 
-🚀 How to Install UV
-Step 1: Install Python
-Download Python from the official website.
+**UV** is an ultra-fast Python package installer designed to manage Python environments and dependencies with high speed, efficiency, and modern tooling.
 
-Click "Download Python 3.x.x" (latest version).
+---
 
-Run the downloaded .exe file.
+## 🚀 How to Install UV
 
-✅ Important: Make sure to check the box that says "Add Python to PATH".
+### ✅ Step 1: Install Python
 
-Click Install Now.
+1. Download Python from the [official Python website](https://www.python.org/downloads/).
+2. Click **"Download Python 3.x.x"** (latest version).
+3. Run the downloaded `.exe` file.
+4. ✅ **Important:** Make sure to check the box that says **"Add Python to PATH"**.
+5. Click **Install Now**.
 
-Step 2: Verify Python Installation
-Open Command Prompt and run:
+---
 
-bash
-Copy
-Edit
+### ✅ Step 2: Verify Python Installation
+
+Open **Command Prompt** and run:
+
+```bash
 python --version
-You should see the installed Python version.
-
-🛠️ Installing UV
-Method 1: Using pip
-Open Command Prompt and run:
-
-bash
-Copy
-Edit
-pip install uv
-Then verify the installation:
-
-bash
-Copy
-Edit
-uv --version
-Method 2: Using PowerShell (Recommended)
-The recommended method for Windows users:
-
-Open PowerShell.
-
-Run the following command:
-
-powershell
-Copy
-Edit
-powershell -c "irm https://astral.sh/uv/install.ps1 | more"
-After installation, verify UV by running:
-
-powershell
-Copy
-Edit
-uv --version
-✅ You're Ready!
-UV is now installed and ready to use for fast and efficient Python package management.
