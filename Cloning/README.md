@@ -5,3 +5,20 @@ In the **OpenAI Agents SDK,** clone means **to create a duplicate of an agent.**
 But it’s more than just making a copy — cloning also allows you to **customize the new agent** by changing certain properties like **name, instructions, model, etc.**
 
 ----
+
+## When we use the "Clone"?
+### 1. Multiple variations of the same agent
+   **For example,** you create an agent that writes in a **Pirate style.**
+   Now you also want the *same agent* to write in a **Robot style,** while keeping all other settings the same.
+   In this case, you can use ***clone().***
+
+#### 2. Reusing base configuration
+   If you don’t want to repeat the same **model, tools, and setup again and again,**
+   you can create a ***base agent*** and then *clone it* with small changes as needed.
+
+### 3. Experimentation / A-B Testing
+   If you want to compare how the ***same model behaves with different instructions,***
+   you can clone the agent and *create multiple variations for testing.*
+
+
+----
