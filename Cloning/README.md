@@ -12,7 +12,7 @@ But it’s more than just making a copy — cloning also allows you to **customi
    Now you also want the *same agent* to write in a **Robot style,** while keeping all other settings the same.
    In this case, you can use ***clone().***
 
-#### 2. Reusing base configuration
+### 2. Reusing base configuration
    If you don’t want to repeat the same **model, tools, and setup again and again,**
    you can create a ***base agent*** and then *clone it* with small changes as needed.
 
@@ -22,3 +22,4 @@ But it’s more than just making a copy — cloning also allows you to **customi
 
 
 ----
+
