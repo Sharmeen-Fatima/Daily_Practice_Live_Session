@@ -22,3 +22,4 @@ Open **Command Prompt** and run:
 
 ```bash
 python --version
+
